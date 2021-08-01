@@ -14,7 +14,7 @@ h2 {
 header {
   width: 100%;
   height: 70px;
-  background-color: #282828;
+
   margin-bottom: 50px;
 }
 
@@ -28,21 +28,13 @@ header {
 }
 
 .navber span {
-  color: #ffffff;
+  color: black;
 }
 
 .navber ul {
   width: auto;
   float: right;
   margin-top: 8px;
-}
-
-#search-box {
-  box-shadow: 1px 1px 2px white;
-  border-radius: 2px;
-}
-#search-btn {
-  background-color: ;
 }
 
 .navber li {
@@ -52,7 +44,7 @@ header {
 
 .navber a {
   text-align: center;
-  color: #ffffff;
+  color: black;
   text-decoration: none;
 }
 .nav:hover {
@@ -107,4 +99,70 @@ header {
 
 #middle {
   height: 500px;
+}
+.txt {
+  text-align: center;
+}
+.image {
+  width: 90%;
+}
+
+.items {
+  box-shadow: 10px 10px 40px gray;
+  width: 40%;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  margin: 0 5%;
+  border-radius: 10px;
+}
+.price {
+  color: orange;
+}
+.btn {
+  text-decoration: none;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(42, 32, 133);
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.txt-bar {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 20px;
+}
+
+.bottom-text h2 {
+  text-align: center;
+  color: black;
+}
+
+.bottom-text h3 {
+  text-align: center;
+  color: grey;
+}
+
+.input-box {
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 2px solid gray;
+  padding: 5px;
+}
+.comment {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 25px;
+}
+footer {
+  color: gray;
+  text-align: center;
+  background-color: black;
+  padding: 2rem;
+  margin: 0;
 }
